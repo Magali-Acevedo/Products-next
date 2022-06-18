@@ -6,6 +6,7 @@ const endPoints = {
     profile: `${API}/api/v1/auth/profile`,
   },
   products: {
+    allproducts: `${API}/api/v1/products/`,
     getProduct: (id) => `${API}/api/v1/products/${id}`,
     getProducts: (limit, offset) => `${API}/api/v1/products?limit=${limit}&offset=${offset}`,
     addProducts: `${API}/api/v1/products`,

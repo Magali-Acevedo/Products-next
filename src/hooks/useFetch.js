@@ -6,7 +6,7 @@ const useFetch = (endpoint) => {
 
   async function fetchData() {
     const response = await axios.get(endpoint);
-    setData(response.data);
+    setData(response.data); 
   }
   useEffect(() => {
     try {
